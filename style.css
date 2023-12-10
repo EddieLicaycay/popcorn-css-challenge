@@ -3,3 +3,20 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+
+div {
+  background-color: #FFDBAA;
+  color: #553100;
+  height: max-content;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+}
+
+.MainButton {
+  background-color: #805215;
+  color: whitesmoke;
+  float: right;
+  margin-right: 10px;
+}
+
