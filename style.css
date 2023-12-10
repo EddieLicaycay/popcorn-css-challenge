@@ -11,25 +11,31 @@ div {
   justify-content: center;
   align-items: center;
   height: 180px;
+  border-bottom: 1.5px solid black;
 }
 
 #airlines {
-font-size: 4em;
+font-size: 3em;
 font-weight: bold;
 color: #553100;
 font: bold;
-margin-left: 10px;
 font-family: "Arial";
+margin-left: 40px;
+margin-bottom: 50px;
+margin-right: auto;
 }
 
 .MainButton {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bolder;
   background-color: #805215;
   color: white;
-  margin-right: 40px;
-  width: 120px;
-  height: 5em;
+  width: 160px;
+  height: 2.5em;
+  margin-left: auto;
+  margin-right: 50px;
+  margin-inline-start: 8px;
+  margin-bottom: 15px;
 }
 
 
