@@ -5,18 +5,32 @@ Header Text - #553100
 Main background - #D4A76A*/
 
 div {
+  display: flex;
   background-color: #FFDBAA;
   color: #553100;
-  height: max-content;
   justify-content: center;
   align-items: center;
-  height: 20px;
+  height: 180px;
+}
+
+#airlines {
+font-size: 4em;
+font-weight: bold;
+color: #553100;
+font: bold;
+margin-left: 10px;
+font-family: "Arial";
 }
 
 .MainButton {
+  font-size: 20px;
+  font-weight: bolder;
   background-color: #805215;
-  color: whitesmoke;
-  float: right;
-  margin-right: 10px;
+  color: white;
+  margin-right: 40px;
+  width: 120px;
+  height: 5em;
 }
+
+
 
