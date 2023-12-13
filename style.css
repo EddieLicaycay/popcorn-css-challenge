@@ -4,7 +4,7 @@ button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
 
-div {
+.header {
   display: flex;
   background-color: #FFDBAA;
   color: #553100;
@@ -38,5 +38,83 @@ margin-right: auto;
   margin-bottom: 15px;
 }
 
+/*
+.body {
+background: #D4A76A;
+display:flex;
+gap: 200px;
+flex-wrap: wrap;
+}
+
+div .flight {
+border: 1px solid #ccc;
+background: white;
+padding: 20px;
+width: calc(33.33% - 20px);
+box-shadow: -3px 5px 5px;
+box-sizing: border-box;
+}
+*/
+
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #D4A76A;
+}
+
+section {
+  border:none;
+  padding: 20px;
+  width: calc(33.33% - 20px);
+  margin-right: 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 6px rgba(2, 2, 2, 0.6);
+  background-color: white;
+}
+
+.about-us {
+  width: calc(90% - 50px);
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: white;
+}
+
+.flights button {
+  font-size: 30px;
+  font-weight: bolder;
+  background-color: #805215;
+  color: white;
+  width: 250px;
+  height: 2em;
+}
+
+.group-trips button {
+  font-size: 30px;
+  font-weight: bolder;
+  background-color: #805215;
+  color: white;
+  width: 250px;
+  height: 2em;
+}
+
+.discount-flights button {
+  font-size: 30px;
+  font-weight: bolder;
+  background-color: #805215;
+  color: white;
+  width: 250px;
+  height: 2em;
+}
+
+.about-us button {
+  font-size: 30px;
+  font-weight: bolder;
+  background-color: #805215;
+  color: white;
+  width: 250px;
+  height: 2em;
+  align-content: center;
+}
 
 
