@@ -38,28 +38,12 @@ margin-right: auto;
   margin-bottom: 15px;
 }
 
-/*
-.body {
-background: #D4A76A;
-display:flex;
-gap: 200px;
-flex-wrap: wrap;
-}
-
-div .flight {
-border: 1px solid #ccc;
-background: white;
-padding: 20px;
-width: calc(33.33% - 20px);
-box-shadow: -3px 5px 5px;
-box-sizing: border-box;
-}
-*/
-
 .body {
   display: flex;
   flex-wrap: wrap;
   background-color: #D4A76A;
+  align-items: center;
+  justify-content: center;
 }
 
 section {
@@ -71,6 +55,15 @@ section {
   box-sizing: border-box;
   box-shadow: 0 4px 6px rgba(2, 2, 2, 0.6);
   background-color: white;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+section label {
+  font-weight: bold;
+  font-size: 24px;
+  font-family: sans-serif;
 }
 
 .about-us {
@@ -85,7 +78,7 @@ section {
   font-weight: bolder;
   background-color: #805215;
   color: white;
-  width: 250px;
+  width: 240px;
   height: 2em;
 }
 
@@ -94,7 +87,7 @@ section {
   font-weight: bolder;
   background-color: #805215;
   color: white;
-  width: 250px;
+  width: 240px;
   height: 2em;
 }
 
@@ -103,7 +96,7 @@ section {
   font-weight: bolder;
   background-color: #805215;
   color: white;
-  width: 250px;
+  width: 240px;
   height: 2em;
 }
 
@@ -112,9 +105,10 @@ section {
   font-weight: bolder;
   background-color: #805215;
   color: white;
-  width: 250px;
+  width: 240px;
   height: 2em;
   align-content: center;
+  text-align: center;
 }
 
 
